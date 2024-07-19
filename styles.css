@@ -35,8 +35,7 @@ body {
 
 .code-container {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-between;
 }
 
 .code {
@@ -48,6 +47,7 @@ body {
     text-align: center;
 }
 
-.code:focus {
-    border-color: #10100d;
+.note { 
+	font-size: 14px;
+    color: #ccc;
 }
